@@ -1,0 +1,11 @@
+.card {
+  display: flex;
+  width: 300px;
+  margin: 6% 35%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+img {
+  width: 4rem;
+  padding: 5px;
+}
