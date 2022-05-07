@@ -8,13 +8,17 @@
 import Custom from "./components/Custom";
 import Effect from "./components/Effect";
 import Memorize from "./components/memos/Memorize";
+import Ref from "./components/Ref";
 
 const App = () => {
   return (
     <div className="container text-center">
-      <Effect />
+    
+      <Custom />
     </div>
+    //<Effect />
     //<Memorize />
+    //<Ref/>
     // <State />
 
     // <div className="container text-center">

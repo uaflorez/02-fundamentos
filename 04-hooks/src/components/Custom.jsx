@@ -1,7 +1,7 @@
 import { useCounter } from "../hooks/useCounter";
 
 const Custom = () => {
-  const [counter, increment, decrement] = useCounter(23, 5);
+  const [counter, increment, decrement] = useCounter(2, 5);
 
   return (
     <>

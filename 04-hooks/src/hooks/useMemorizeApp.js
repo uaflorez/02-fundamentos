@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from "react";
 
 export const useMemorizeApp = () => {
-  const [counter, setCounter] = useState(100);
+  const [counter, setCounter] = useState(10);
   const [view, setView] = useState(true);
 
   const pesado = (iter) => {
